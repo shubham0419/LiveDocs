@@ -16,6 +16,7 @@ declare type RoomMetadata = {
   title: string;
 };
 
+
 declare type CreateDocumentParams = {
   userId: string;
   email: string;

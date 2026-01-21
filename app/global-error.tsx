@@ -9,6 +9,7 @@ export default function GlobalError({ error }: { error: Error & { digest?: strin
     Sentry.captureException(error);
   }, [error]);
 
+  
   return (
     <html>
       <body>

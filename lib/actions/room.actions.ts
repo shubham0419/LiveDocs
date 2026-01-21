@@ -11,7 +11,6 @@ export const createDocument = async ({
   email,
 }: CreateDocumentParams) => {
   const roomId = nanoid();
-
   try {
     const metadata = {
       creatorId: userId,

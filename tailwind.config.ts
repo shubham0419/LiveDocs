@@ -20,6 +20,7 @@ const config = {
         xs: '360px',
       },
     },
+    
     extend: {
       colors: {
         blue: {

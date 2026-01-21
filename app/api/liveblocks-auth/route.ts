@@ -12,6 +12,7 @@ export async function POST(request: Request) {
 
   const {id,firstName,lastName,emailAddresses,imageUrl} = clerkUser;
 
+  
   const user = {
     id,
     info:{

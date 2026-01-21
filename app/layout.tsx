@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description: "LiveDocs is a collabrative writing and editing documents.",
 }
 
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <ClerkProvider

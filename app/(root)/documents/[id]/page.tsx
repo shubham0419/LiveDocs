@@ -7,9 +7,9 @@ import React from 'react'
 
  const Document = async({params:{id}}:SearchParamProps) => {
   const clerkUser = await currentUser();
-
   if(!clerkUser) redirect("/sign-in");
   
+
   const room = await getDocument({
     roomId:id,
     userId:clerkUser.emailAddresses[0].emailAddress
